@@ -3,7 +3,7 @@ from src.drivers.barcode_handler import BarcodeHandler
 
 class TagCreatorController:
     '''
-        responsibility for implementing business rules
+        responsible for implementing business rules
     '''
 
     def create(self, product_code: str) -> dict:
